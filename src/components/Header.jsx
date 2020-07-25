@@ -111,7 +111,7 @@ const Header = ({children, match, history}) => {
                        
                        <div className="container-fluid position-relative">
                            <Link class="navbar-brand" to="/">
-                               <img className="navbar-brand__regular" src="./brandlogo.png" alt="RTCMultiConnection"/>
+                               <img className="navbar-brand__regular" src="/brandlogo.png" alt="RTCMultiConnection"/>
                               <img className="navbar-brand__sticky" src="/brandlogo.png" alt="sticky brand-logo"/>
                           </Link>
                          

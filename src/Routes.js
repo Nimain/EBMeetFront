@@ -29,7 +29,7 @@ const Routes = ()=>{
 
            <Route path="/signin" exact component={Login} />
 
-           <Route path= "/account/activate/:token" exact component={Activate} />
+           <Route path= "/auth/activate/:token" exact component={Activate} />
 
            <Route path= "/eibcmeeting" exact component = {JoinCall}/>
 
