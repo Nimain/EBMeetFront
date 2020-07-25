@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link, Redirect} from 'react-router-dom'
 import Header from '../components/Header'
-import { isAuth, signout } from '../account/helpers';
+import { isAuth, signout } from '../auth/helpers';
 // import { Jutsu } from "react-jutsu";
 import {Jutsu} from '../core/videoAPIcall'
 

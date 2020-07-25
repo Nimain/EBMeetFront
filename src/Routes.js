@@ -1,18 +1,18 @@
 import React from 'react';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import App from './App';
-import Signup from './account/Signup';
-import Login from './account/login';
-import Activate from './account/Activate'
-import JoinCall from './account/JoinCall'
+import Signup from './auth/Signup';
+import Login from './auth/login';
+import Activate from './auth/Activate'
+import JoinCall from './auth/JoinCall'
 import Price from './pages/pricing';
 import Faq from './pages/Faqs';
 import Private from './components/Private';
 import Admin from './components/Admin';
-import Forgot from './account/Forgot';
-import Reset from './account/Reset';
-import PrivateRoute from './account/PrivateRoute';
-import AdminRoute from './account/AdminRoute';
+import Forgot from './auth/Forgot';
+import Reset from './auth/Reset';
+import PrivateRoute from './auth/PrivateRoute';
+import AdminRoute from './auth/AdminRoute';
 
 
 const Routes = ()=>{
